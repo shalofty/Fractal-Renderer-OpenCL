@@ -12,6 +12,7 @@ echo "[build] Compiling OpenCL Fractal Renderer (scaffold)..."
 g++ -std=c++17 -O2 -Wextra \
     -I"${PROJECT_ROOT}/include" \
     "${SRC_DIR}/main.cpp" \
+    "${SRC_DIR}/cli_parser.cpp" \
     "${SRC_DIR}/device_manager.cpp" \
     "${SRC_DIR}/kernel_manager.cpp" \
     "${SRC_DIR}/memory_manager.cpp" \
